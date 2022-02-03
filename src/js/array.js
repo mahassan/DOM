@@ -11,3 +11,7 @@ console.log("After unshifting ",arr)
 arr.sort();
 
 console.log("Sorted Array", arr);
+
+arr.splice(1,1);
+
+console.log("Spliced Item 1 ", arr)
